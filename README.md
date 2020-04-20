@@ -26,7 +26,13 @@ Follow these steps if you want to compile the library by yourself:
 2. Install numpy via pip.
 3. Download the source code of OpenCV 4.3.0 via GitHub.
 4. Run the CMake, indicate the folder of OpenCV source code and the target folder you want to place the built code.
-5. Run the configure for the first time.
+5. Trigger the **configure** for the first time.
 6. Check the options in the list. Make sure you have checked these options.
-7. Configure again. Check the errors and fix them. Some downloading for ffmpeg or other lib from GitHub may be blocked by GFW. You need to download them manually and replace the cache in *.cache* in the target folder
+7. Configure again. Check the errors and fix them. Some downloading for ffmpeg or other lib from GitHub may be blocked by GFW. You need to download them manually and replace the cache in */.cache* in the target folder. You may use this (website)[https://d.serctl.com/?dl_start] to help you.
+8. When you clear all errors, you could **generate** the project.
+9. Click the **open project** to jump to VS or you could manually open the project from target folder.
+10. Set the env as release on the top toolbar. 
+11. Right click the ALL_BUILD in the right tree and start the generation. It may take 30~60 minutes here.
+12. Right click the INSTALL in the right tree and start the generation. It may take 10 minutes here if you choose to build with all dependency.
+13. The python lib will be created automatically after the code installation in VS. You could run the test.py and check the opencv version in the console now.
 
