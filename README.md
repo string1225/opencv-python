@@ -12,8 +12,7 @@ Please check your system and need with following version info:
 ## Installation
 
 Follow these steps if you want to use the lib directly:
-0. Make sure you are using Windows 10.
-1. Install [Python 3.8](https://www.python.org/downloads/), [CUDA 10.2](https://developer.nvidia.com/cuda-downloads) and [cuDNN 7.5](https://developer.nvidia.com/rdp/cudnn-download) via the official website.
+1. Install [Python 3.8](https://www.python.org/downloads/), [CUDA 10.2](https://developer.nvidia.com/cuda-downloads) and [cuDNN 7.5](https://developer.nvidia.com/rdp/cudnn-download) via the official website. VS integration option for CUDA isn't necessary here.
 2. Install numpy and opencv-python via pip.
 3. Replace the ***\{Your Python Installation Path\}\Lib\site-packages\cv2*** with the ***cv2*** of this repo. 
 4. Run **test.py** and check the opencv version in the console.
